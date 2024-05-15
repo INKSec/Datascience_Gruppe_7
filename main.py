@@ -26,4 +26,9 @@ combinedDataframe = pd.concat([myFrameKiwo, myFrameUmsatz, myFrameWetter], axis=
 
 print(combinedDataframe)
 
+# make descriptive stattistics
+statistics = combinedDataframe.describe()
+
+print(statistics)
+
 
